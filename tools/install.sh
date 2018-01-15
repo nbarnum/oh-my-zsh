@@ -110,7 +110,8 @@ main() {
   echo 'p.p.s. Get stickers and t-shirts at https://shop.planetargon.com.'
   echo ''
   printf "${NORMAL}"
-  env zsh
+  # Don't automatically start zsh. Probably should convert to an arg like "--batch" or "--non-interactive"
+  # env zsh
 }
 
 main
